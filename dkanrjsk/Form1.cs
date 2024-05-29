@@ -16,5 +16,15 @@ namespace dkanrjsk
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine("Hi");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine("Bye");
+        }
     }
 }
